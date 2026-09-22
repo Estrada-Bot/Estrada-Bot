@@ -1,5 +1,5 @@
 """
-MongoDB Storage Layer — Estrada ROLEPLAY
+MongoDB Storage Layer — Estrada
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Drop-in replacement for the old per-cog JSON file storage. Every cog's
 load_x()/save_x() pair now calls db.load(collection)/db.save(collection,
