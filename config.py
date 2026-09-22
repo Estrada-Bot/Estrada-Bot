@@ -1,6 +1,6 @@
 import os
 
-TOKEN = os.getenv("DISCORD_TOKEN", "")  # Set via .env or environment variable
+TOKEN = os.getenv("TOKEN", "")  # Set via .env or environment variable
 
 BOT_NAME    = "Estrada"
 SERVER_NAME = "Estrada"
