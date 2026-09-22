@@ -869,18 +869,15 @@ async def time_cmd(
 
 if __name__ == "__main__":
 
-    # Never print the actual token
     if not config.TOKEN:
-
         raise RuntimeError(
-            "❌ DISCORD_TOKEN is missing. "
-            "Set it in .env or your hosting Environment Variables."
+            "❌ Discord token is missing in config.py"
         )
-
 
     print(
         f"🔐 Discord token loaded "
         f"({len(config.TOKEN)} characters)"
     )
 
-     bot.run(config.TOKEN)
+    bot.run(config.TOKEN)
+
