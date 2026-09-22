@@ -883,6 +883,4 @@ if __name__ == "__main__":
         f"({len(config.TOKEN)} characters)"
     )
 
-    bot.run(
-        config.TOKEN
-    )
+     bot.run(config.TOKEN)
