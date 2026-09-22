@@ -1,19 +1,18 @@
 import os
 
-TOKEN = os.getenv("TOKEN", "")  # Set via .env or environment variable
+TOKEN = os.getenv("DISCORD_TOKEN", "")
 
 BOT_NAME    = "Estrada"
 SERVER_NAME = "Estrada"
 DEVELOPER   = "Estrada"
 
-GUILD_ID = 0  # Set in /welcome setup, /ticket setup, etc.
+GUILD_ID = 0
 
 EMBED_COLOR   = 0x5865F2
 SUCCESS_COLOR = 0x57F287
 ERROR_COLOR   = 0xED4245
 WARNING_COLOR = 0xFEE75C
 
-# Legacy config fields (kept for cogs that still reference them directly)
 WELCOME_CHANNEL_ID     = 0
 WELCOME_LOG_CHANNEL_ID = 0
 AUTO_ROLE_ID           = 0
@@ -33,6 +32,7 @@ VERIFY_BANNER_URL = ""
 STAFF_APP_CHANNEL_ID    = 0
 STAFF_REVIEW_CHANNEL_ID = 0
 STAFF_ROLE_ID           = 0
+
 STAFF_QUESTIONS = [
     "What is your name and age?",
     "How many hours per day can you dedicate to the server?",
@@ -42,7 +42,3 @@ STAFF_QUESTIONS = [
 ]
 
 CURRENCY_EMOJI = "💰"
-
-# ── MongoDB (all persistent data) — see MONGODB_SETUP.md ──
-MONGO_URI     = os.getenv("MONGO_URI", "").strip()
-MONGO_DB_NAME = os.getenv("MONGO_DB_NAME", "Estrada")
