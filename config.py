@@ -1,6 +1,6 @@
 import os
 
-TOKEN = os.getenv("DISCORD_TOKEN", "")
+TOKEN = os.getenv("TOKEN", "")
 
 BOT_NAME    = "Estrada"
 SERVER_NAME = "Estrada"
