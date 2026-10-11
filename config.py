@@ -2,9 +2,9 @@ import os
 
 TOKEN = os.getenv("DISCORD_TOKEN", "")  # Set via .env or environment variable
 
-BOT_NAME    = "Estrada"
-SERVER_NAME = "Estrada"
-DEVELOPER   = "Estrada"
+BOT_NAME    = "Estrada-Bot"
+SERVER_NAME = "Estrada Community"
+DEVELOPER   = "Eric"
 
 GUILD_ID = 0  # Set in /welcome setup, /ticket setup, etc.
 
